@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Crazy - Corte Profissional</title>
+    <style>
+       
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho Hero -->
+    <header>
+        <h1>Barbearia Crazy</h1>
+        <p>Corte mais Profissional para Você</p>
+    </header>
+    
+    <!-- Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">INÍCIO</a></li>
+            <li><a href="#sobre">SOBRE NÓS</a></li>
+            <li><a href="#servicos">SERVIÇOS</a></li>
+            <li><a href="#precos">LISTA DE PREÇO</a></li>
+            <li><a href="#contato">CONTATO</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Sobre Nós -->
+    <section id="sobre" class="about">
+        <h2>Sobre Nós</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>A Barbearia Crazy é referência em cortes profissionais e atendimento de excelência. Nossa equipe de barbeiros altamente qualificados está pronta para oferecer a melhor experiência em cuidados masculinos.</p>
+                <p>Fundada em 2010, temos orgulho de manter as tradições da barbearia clássica enquanto incorporamos as últimas tendências e técnicas modernas.</p>
+                <p>Nosso ambiente foi cuidadosamente projetado para proporcionar conforto e exclusividade, tornando cada visita uma experiência única.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Interior da Barbearia Crazy">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <h2>O que nós fazemos</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/CABELO.jpg" alt="Corte de Cabelo">
+                </div>
+                <div class="service-content">
+                    <i class="fas fa-cut"></i>
+                    <h3>Corte de Cabelo</h3>
+                    <p>Corte profissional com técnicas modernas e tradicionais, utilizando os melhores produtos do mercado.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/barba.jpg" alt="Barba">
+                </div>
+                <div class="service-content">
+                    <i class="fas fa-air-freshener"></i>
+                    <h3>Barba</h3>
+                    <p>Tratamento completo para barba incluindo modelagem, hidratação e cuidados com a pele.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="/img/LAVA.jpg" alt="Tratamentos">
+                </div>
+                <div class="service-content">
+                    <i class="fas fa-spa"></i>
+                    <h3>Tratamentos</h3>
+                    <p>Serviços especiais como luzes, coloração, terapias capilares e cuidados com a pele.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Preços -->
+    <section id="precos" class="pricing">
+        <h2>Lista de Preço</h2>
+        <table>
+            <tr>
+                <th>Serviço</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Corte Social</td>
+                <td>Corte básico com tesoura e máquina</td>
+                <td>R$ 50,00</td>
+            </tr>
+            <tr>
+                <td>Corte Degradê</td>
+                <td>Corte com transição de máquina</td>
+                <td>R$ 60,00</td>
+            </tr>
+            <tr>
+                <td>Barba Completa</td>
+                <td>Aparar, modelar e finalizar</td>
+                <td>R$ 40,00</td>
+            </tr>
+            <tr>
+                <td>Pacote Crazy</td>
+                <td>Corte + Barba + Hidratação</td>
+                <td>R$ 90,00</td>
+            </tr>
+            <tr>
+                <td>Hidratação Capilar</td>
+                <td>Tratamento para cabelo e couro cabeludo</td>
+                <td>R$ 35,00</td>
+            </tr>
+        </table>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Corra! Nossa agenda já está quase lotada!</h2>
+        <p>Agende seu corte agora mesmo e experimente o melhor serviço de barbearia da cidade.</p>
+        <button>Agendar Corte</button>
+    </section>
+    
+    <!-- Contato -->
+    <!-- Contato -->
+<section id="contato" class="contact">
+    <h2>Contato</h2>
+    <div class="contact-form">
+        <form id="whatsappForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+         
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required>Olá, gostaria de agendar um horário!</textarea>
+            </div>
+            <button type="button" onclick="enviarWhatsApp()">Enviar Mensagem</button>
+        </form>
+    </div>
+</section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Barbearia Crazy. Todos os direitos reservados.</p>
+        <div class="social-icons" style="margin-top: 20px;">
+            <a href="https://www.facebook.com" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/brunnavillanova/" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5511971552389" target="_blank" style="color: white; margin: 0 10px; font-size: 1.5rem;">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>   
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
